@@ -179,7 +179,7 @@ function drawName(cf: Config, cvt: CanvasTool, card: Card, y2: number, y3: numbe
     }
 
     // 逐字绘制
-    const text = card.isTranslate ? translate(card.name) : card.title
+    const text = card.isTranslate ? translate(card.name) : card.name
     for (let i = 0; i < text.length; i++) {
         const y = y2 + ytop + yoff * i
         const char = text[i]
