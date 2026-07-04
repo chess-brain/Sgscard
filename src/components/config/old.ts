@@ -85,7 +85,7 @@ export const oldConfig: Config = {
         shenTextStyle: {
             align: 'left',
             baseline: 'middle',
-            fillStyle: 'ffffff'
+            fillStyle: '#ffffff'
         }
     },
     version: {

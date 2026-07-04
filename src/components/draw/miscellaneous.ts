@@ -70,9 +70,9 @@ export class Miscellaneous {
 
     getTitleColor(power: string, isLord: boolean) {
         if (isLord) {
-            return this.titleLordColor[power]
-        } else {
             return "rgb(255, 255, 0)"
+        } else {
+            return this.titleLordColor[power]
         }
     }
 }
